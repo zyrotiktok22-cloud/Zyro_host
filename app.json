@@ -1,0 +1,37 @@
+{
+  "name": "Zyrolegend¹bot",
+  "description": "Zyrolegend¹bot - multi-function WhatsApp bot",
+  "logo": "https://i.ibb.co/nqsRcKDB/Xploader4.jpg",
+  "keywords": [],
+  "repository": "https://github.com/zyrotiktok22-cloud/Zyro_host.git",
+  "stack": "zyro-24",
+  "addons": [
+    {
+      "plan": "zyro-postgresql:essential-0"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "zyro/nodejs"
+    },
+    {
+      "url": "https://github.com/zyrotiktok22-cloud/Zyro_host.git"
+    },
+    {
+      "url": "https://github.com/zyrotiktok22-cloud/Zyro_host.git"
+ries.git"
+  ]
+}
+    }
+  ]
+}
