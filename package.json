@@ -28,6 +28,7 @@
     "adm-zip": "^0.5.16",
     "ab-downloader": "latest",
     "better-sqlite3": "^12.2.0",
+    "sql.js": "^1.13.0",
     "acrcloud": "^1.4.0",
     "awesome-phonenumber": "^7.4.0",
     "axios": "^1.10.0",
